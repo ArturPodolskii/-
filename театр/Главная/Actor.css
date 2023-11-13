@@ -1,0 +1,162 @@
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+.top-menu {
+  position: relative;
+  transition: top 0.5s;
+}
+
+
+@font-face {
+  font-family: 'Marck Script';
+  font-weight: 600;
+  font-style: normal;
+  src: local("Marck Script")}
+      
+
+.menu-main {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu-main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.left-item {float: left;}
+.right-item {float: right;}
+.navbar-logo {
+  filter:blur(10);
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%,-50%);
+
+}
+.menu-main a {
+  text-decoration: none;
+  display: block;
+  line-height: 90px;
+  padding: 0 20px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: 'Greenth', sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  transition: .3s linear;
+}
+.menu-main a:hover {color: rgb(5, 5, 5); background-color: aliceblue;}
+@media (max-width: 830px) {
+.menu-main {
+  padding-top: 90px;
+  text-align: center;
+}
+.navbar-logo {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+}
+.menu-main li {
+  float: none;
+  display: inline-block;
+}
+.menu-main a {
+  line-height: normal;
+  padding: 20px 15px;
+  font-size: 16px;
+}
+}
+@media (max-width: 630px) {
+.menu-main li {display: block;}
+}
+
+
+
+  .navbar-logo{
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+   }
+   .navbar-logo img {
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+   }
+   .navbar-logo img:hover {
+    transform: scale(1.04);} /* Увеличиваем масштаб */
+
+
+    body{background-image: url(Py3-vYghm04.jpg) ; min-height:100%;background-size:cover ;
+      color: aliceblue; font-family:'Amatic SC', sans-serif; }
+
+      .active a {background-color: aliceblue; color: black;}
+
+      .blocktext{text-align: center; font-family: 'Greenth', sans-serif;}
+      
+
+
+
+      div{
+        text-align: center;
+        text-shadow: grey 2px 2px 10px;
+}
+
+      .foto  { align-items: center;
+        display: inline;
+        flex-direction: row;
+        justify-content: space-between;
+      } 
+	
+.foto img { height: auto;
+  width:70%;
+  border: 5px solid rgba(118, 115, 115, 0.526);
+
+}
+figure {
+  width: 50%;
+  float: left;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  font-family: 'Greenth' 'Amatic SC', sans-serif;
+  font-size: 30px;
+
+}
+
+
+img{ 
+        filter: grayscale(90%);
+    }
+    
+    img:hover{
+        filter: none; border-radius: 80%;
+      }
+
+
+
+
+
+
+
+   @media (max-width: 640px){
+        figure{ filter: none; border: none; border-radius: 0; border: 0px;font-size: 20px}}
+
+   @media (max-width: 640px){img{border-radius: 80%; border: 0px;}}
+
+
+
+
+        @media(max-width:640px){body{background-image: url(ссссс.jpg); font-size: 20px;}}
+        
+          
+    
+
+
+
